@@ -1,0 +1,55 @@
+
+.logo{
+    width:100px;
+    height: 100px;
+}
+
+
+/*CSS menu*/
+.flex.space-x-4.text-sm.font-medium{
+    gap: 20px;
+    font-size: 20px ;
+}
+
+
+/*CSS color fondo banner*/
+.bg-pink-200 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(126, 206, 255);
+}
+
+.titulo-banner {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 100px;
+}
+
+.titulo-banner-2 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+
+/*CSS Botones*/
+
+.bg-pink-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
+}
+
+
+/*cuando pasa el mouse*/
+.hover\:bg-pink-600:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
+}
+
+/*FIN CSS BOTONES*/
+
