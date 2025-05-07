@@ -1,4 +1,16 @@
+body{
+    background-color: rgb(255, 126, 216);
+}
 
+
+.formulario {
+    border: 2px solid #474b4e;
+         display: flex;
+         justify-content: center;
+         place-items: center;
+         text-align: center;
+         
+}
 .logo{
     width:100px;
     height: 100px;
@@ -18,14 +30,7 @@
     background-color: rgb(126, 206, 255);
 }
 
-.titulo-banner {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 100px;
-}
+
 
 .titulo-banner-2 {
     font-family: "Dancing Script", cursive;
