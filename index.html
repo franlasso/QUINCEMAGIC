@@ -1,77 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="icon" type="image/png" href="/logoinicio.jpeg">
+  <link rel="icon" type="image/png" href="/img/logoinicio.jpeg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>QuinceMagic - Inicio</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link href="/css/index.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="/css/inicio.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/nav-bar.css">
+  <link rel="stylesheet" href="/css/footer.css">
 </head>
-<body class="bg-white text-gray-800">
+<body>
 
   <!-- Menú principal -->
-  <nav class="bg-white shadow">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <div class="logo"> 
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
         <img src="/img/logoinicio.jpeg" alt="Clásica">
       </div>
-      <ul class="flex space-x-4 text-sm font-medium">
-        <li><a href="/index.html" class="hover:text-pink-500">Inicio</a></li>
-        <li><a href="/quienes-somos.html" class="hover:text-pink-500">Quiénes somos</a></li>
-        <li><a href="/contacto.html" class="hover:text-pink-500">Contacto</a></li>
-        <li><a href="/acceso.html" class="hover:text-pink-500">Acceder</a></li>
-        <li><a href="/registro.html" class="hover:text-pink-500">Registrarse</a></li>
+      <ul class="nav-links">
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/acceso.html">Acceder</a></li>
+        <li><a href="/acceso.html">Registrarse</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Banner principal -->
-  <div class="bg-pink-200 py-20 text-center">
-    <h1 class="titulo-banner">Bienvenidos a QuinceMagic</h1>
-    <p class="titulo-banner-2">Haz realidad la fiesta de tus sueños</p>
+  <div class="banner">
+    <div class="banner-overlay">
+      <h1>Bienvenidos a QuinceMagic</h1>
+      <p>Haz realidad la fiesta de tus sueños</p>
+    </div>
   </div>
 
   <!-- Temáticas -->
-  <section class="max-w-7xl mx-auto px-4 py-12">
-    <h2 class="text-3xl font-bold text-center mb-10">Elige tu temática preferida</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="/img/clasica.jpeg" alt="Clásica" class="w-full h-40 object-cover">
-        <div class="p-4 text-center">
-          <h3 class="font-semibold mb-2">Clásica o Tradicional</h3>
-          <a href="/tematica.html" class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Ver más</a>
-        </div>
+  <section class="themes-section">
+    <h2>Elige tu temática  preferida</h2>
+    <div class="themes-grid">
+      <div class="card">
+        <img src="/img/clasica.jpeg" alt="Clásica">
+        <h3>Clásica o Tradicional</h3>
+        <a href="tematica.html" class="btn">Ver más</a>
       </div>
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="img/playa.jpeg" alt="Playa" class="w-full h-40 object-cover">
-        <div class="p-4 text-center">
-          <h3 class="font-semibold mb-2">Fiesta Playa</h3>
-          <a href="/tematica.html" class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Ver más</a>
-        </div>
+      <div class="card">
+        <img src="/img/playa.jpeg" alt="Playa">
+        <h3>Fiesta Playa</h3>
+        <a href="tematica.html" class="btn">Ver más</a>
       </div>
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="/img/mascaras.jpeg" alt="Máscaras" class="w-full h-40 object-cover">
-        <div class="p-4 text-center">
-          <h3 class="font-semibold mb-2">Máscaras</h3>
-          <a href="/tematica.html" class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Ver más</a>
-        </div>
+      <div class="card">
+        <img src="/img/mascaras.jpeg" alt="Máscaras">
+        <h3>Máscaras</h3>
+        <a href="tematica.html" class="btn">Ver más</a>
       </div>
-      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <img src="/img/holliwood.jpeg" alt="Hollywood" class="w-full h-40 object-cover">
-        <div class="p-4 text-center">
-          <h3 class="font-semibold mb-2">Hollywood</h3>
-          <a href="/tematica.html" class="bg-pink-500 text-white px-4 py-2 rounded hover:bg-pink-600">Ver más</a>
-        </div>
+      <div class="card">
+        <img src="/img/holliwood.jpeg" alt="Hollywood">
+        <h3>Hollywood</h3>
+        <a href="tematica.html" class="btn">Ver más</a>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-white text-center py-4">
+  <footer class="footer">
     © 2025 QuinceMagic. Todos los derechos reservados.
   </footer>
 
