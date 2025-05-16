@@ -10,31 +10,57 @@
   <link rel="stylesheet" href="./css/footer.css">
  </head>
 <body>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="img/logoinicio.jpeg" alt="Clásica">
+         </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acceso.html">Acceder</a></li>
+        <li><a href="acceso.html">Registrarse</a></li>
+      </ul>
+        </div>
+      </div>
+    </div>
+  </nav>    
   <!-- formulario -->
+  <div class="banner">
+    <div class="banner-overlay">
+      <h1>Haz realidad la fiesta de tus sueños</h1>
+    </div>
+  </div>
+
 <div class="formulario" >
-<form>
-    <label for="presupuesto"> Presupuesto </label>
-    <input type="text" id="presupuesto" name="presupuesto">
-    <br>
-    <br>
-    <label for="numero de invitados"> Numero de invitados </label>
-    <input type="text" id="numero de invitados" name="numero de invitados"> 
-    <br>
-    <br>
-    <label for="nombre"> Nombre </label>
-    <input type="text" id="nombre" name="nombre">
-    <br>
-    <br>
-    <label for="email"> Email </label>
-    <input type="text" id="email">
-    <br>
-    <br>
-    <label for="telefono"> Telefono </label>
-    <input type="text" id="telefono" name="telefono">
-    <br>
-    <br>
-    <button> enviar </button> 
-</form>
+  <form>
+    <section>
+     <label for="presupuesto"> Presupuesto: </label>
+     <input type="text" placeholder="presupuesto" required>
+     <br>
+     <br>
+     <label for="numero de invitados"> Numero de invitados: </label>
+     <input type="text" placeholder="numero de invitados" required> 
+     <br>
+     <br>
+     <label for="nombre"> Nombre: </label>
+     <input type="text" placeholder="Ingresa tu nombre" required>
+     <br>
+     <br>
+     <label for="correo electrónico"> Email: </label>
+     <input type="email" placeholder="ejemplo@correo.com" required>
+     <br>
+     <br>
+     <label for="telefono"> Telefono: </label>
+     <input type="text" placeholder="telefono" required>
+     <br>
+     <br>
+     <div class="button"> 
+         <button class="button-1"> enviar </button> 
+    </div> 
+   </section>  
+  </form>
 </div>
 <br>
 

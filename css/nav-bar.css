@@ -68,6 +68,7 @@ body {
 
   
   .banner-overlay {
+    background-color: #ec4899;
     height: 100%;
     display: flex;
     flex-direction: column;
