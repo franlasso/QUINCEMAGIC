@@ -1,0 +1,28 @@
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card{
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+.card img{
+    width: 90%;
+}
+
+.card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
