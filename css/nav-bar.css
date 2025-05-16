@@ -46,7 +46,7 @@
   }
   
   .banner-overlay {
-    background-color: rgb(126, 206, 255);
+    background-color: #ec4899;
     height: 100%;
     display: flex;
     flex-direction: column;
