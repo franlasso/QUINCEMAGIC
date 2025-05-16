@@ -1,0 +1,21 @@
+  /* QUIENES SOMOS ESTILOS*/
+  
+  .content-box {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    margin: 30px;
+
+  }
+  
+  .image img {
+    width: 90%;
+    height: auto;
+  }
+  
+  .text {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+  }
+

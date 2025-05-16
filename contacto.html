@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="icon" type="image/png" href="./img/logoinicio.jpeg">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contáctanos</title>
-  <link rel="stylesheet" href="/css/contacto.css">
+  <link rel="stylesheet" href="./css/contacto.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="/css/nav-bar.css">  
-  <link rel="stylesheet" href="/css/footer.css">
+  <link rel="stylesheet" href="./css/nav-bar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
 </head>
 <body>
+
+  <!-- Menú principal -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="./img/logoinicio.jpeg" alt="Clásica">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acceso.html">Acceder</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Banner principal -->
+  <div class="banner">
+      <img src="./img/bg-banner.jpeg" alt="Imagen de fondo">
+    <div class="banner-overlay">
+    <h1 class="titulo-banner">Bienvenidos a QuinceMagic</h1>
+    <p class="titulo-banner-2">Haz realidad la fiesta de tus sueños</p>
+    </div>
+  </div>
 
   <section class="contact-section">
     <div class="contact-container">
@@ -46,9 +74,7 @@
           <textarea rows="5" placeholder="Escribe tu mensaje..."></textarea>
 
           <label class="checkbox">
-            <input type="checkbox" required>
-            He leído los <strong>términos y condiciones</strong> y acepto ser inscrito en la base de datos.
-          </label>
+            <input type="checkbox" required>He leído los <strong>términos y condiciones</strong> y acepto ser inscrito en la base de datos.</label>
 
           <button type="submit">ENVIAR</button>
         </form>
