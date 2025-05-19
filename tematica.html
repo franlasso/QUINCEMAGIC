@@ -5,17 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>QuinceMagic - Inicio</title>
-  <link href="./tematica.html" rel="stylesheet">
+  <link href="./css/tematica.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/nav-bar.css">
   <link rel="stylesheet" href="./css/footer.css">
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
  </head>
 <body>
-  <nav class="navbar">
-    <div class="container nav-container">
+
+ <!-- Menu principal -->
+
+  <nav class="navbar"> 
+    <div class="container nav-container"> <!-- logo de la pagina-->
       <div class="logo">
         <img src="img/logoinicio.jpeg" alt="Clásica">
          </div>
-      <ul class="nav-links">
+      <ul class="nav-links"> <!-- enlaces de las paginas -->
         <li><a href="index.html">Inicio</a></li>
         <li><a href="quienes-somos.html">Quiénes somos</a></li>
         <li><a href="contacto.html">Contacto</a></li>
@@ -26,16 +31,24 @@
       </div>
     </div>
   </nav>    
-  <!-- formulario -->
+
+ <!-- Banner principal -->
+
   <div class="banner">
+      <img src="./img/bg-banner.jpeg" alt="Imagen de fondo">
     <div class="banner-overlay">
-      <h1>Haz realidad la fiesta de tus sueños</h1>
+    <h1 class="titulo-banner">Bienvenidos a QuinceMagic</h1>
+    <p class="titulo-banner-2">Haz realidad la fiesta de tus sueños</p>
     </div>
   </div>
 
+ <!-- formulario -->
+
 <div class="formulario" >
   <form>
-    <section>
+     <div class="consulta">
+     <h4> Haz aqui tu consulta </h4> 
+     </div> 
      <label for="presupuesto"> Presupuesto: </label>
      <input type="text" placeholder="presupuesto" required>
      <br>
@@ -58,8 +71,7 @@
      <br>
      <div class="button"> 
          <button class="button-1"> enviar </button> 
-    </div> 
-   </section>  
+    </div>   
   </form>
 </div>
 <br>

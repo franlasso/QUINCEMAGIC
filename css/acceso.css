@@ -1,48 +1,48 @@
+/* Estilos generales para el cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif; /* Se establece la fuente del texto a Arial, con respaldo en sans-serif */
+    background-color: #fff; /* Color de fondo blanco para la página */
+    margin: 0; /* Elimina el margen exterior del body */
+    padding: 0; /* Elimina el relleno interno del body */
 }
-
-
+/* Estilos para un contenedor con clase .container2 */
 .container2 {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+    display: flex; /* Usa flexbox para organizar los elementos hijos */
+    justify-content: center;  /* Centra horizontalmente los elementos dentro del contenedor */
+    margin-top: 30px; /* Añade un margen superior de 30px */
 }
-
+/* Estilos para los cuadros dentro del contenedor */
 .box {
-    width: 300px;
-    padding: 30px;
-    border: 1px solid #ddd;
-    margin: 20px;
+    width: 300px;  /* Ancho fijo de 300px */
+    padding: 30px; /* Relleno interno de 30px alrededor del contenido */
+    border: 1px solid #ddd; /* Borde de 1px con color gris claro */
+    margin: 20px; /* Margen exterior de 20px alrededor del cuadro */
 }
-
+/* Estilos para los títulos h2 */
 h2 {
-    color: #8c2f1b;
+    color: #8c2f1b; /* Color del texto marrón oscuro */
 }
-
+/* Estilos compartidos para campos de entrada de texto, correo y contraseña */
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    width: 100%; /* El ancho del campo ocupa el 100% del contenedor */
+    padding: 10px; /* Relleno interno de 10px */
+    margin: 10px 0; /* Margen superior e inferior de 10px, 0 en los lados */
+    border: 1px solid #ccc; /* Borde de 1px con color gris claro */
+    border-radius: 4px; /* Bordes redondeados con radio de 4px */
 }
-
+/* Estilos para el botón */
 button {
-    width: 100%;
-    padding: 10px;
-    background-color: #8c2f1b;
-    color: white;
-    border: none;
-    cursor: pointer;
+    width: 100%; /* El botón ocupa todo el ancho disponible */
+    padding: 10px; /* Relleno interno de 10px */
+    background-color: #8c2f1b; /* Color de fondo marrón oscuro */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambia el cursor al pasar por encima para indicar que es clickeable */
 }
-
+/* Estilo para el botón al pasar el mouse por encima */
 button:hover {
-    background-color: #a9432d;
+    background-color: #a9432d; /* Cambia el color de fondo a un tono más claro de marrón al hacer hover */
 }
 

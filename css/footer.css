@@ -1,6 +1,15 @@
 .footer {
-    background: #1f2937;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+  background-color:#333; /* Color de fondo oscuro (gris muy oscuro) para el pie de página */
+  text-align: center; /* Centra el texto horizontalmente dentro del footer */
+  padding: 1rem; /* Agrega un espacio interno (padding) de 1 unidad rem alrededor del contenido */
+  font-size: 0.9rem; /* Establece el tamaño de fuente a 0.9 rem (ligeramente más pequeño que el valor base) */
+  color:white; /* Cambia el color del texto a blanco */
+  margin-top: 2rem; /* Agrega un margen superior de 2 rem para separar el footer del contenido anterior */
+}
+/* Media query para pantallas pequeñas (768px o menos) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem; /* Aumenta el espacio vertical a 2rem y mantiene 1rem en los laterales */
+    font-size: 0.85rem; /* Reduce un poco el tamaño de la fuente para dispositivos pequeños */
   }
+}

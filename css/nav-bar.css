@@ -1,108 +1,107 @@
+/* Estilo general del cuerpo de la página */
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #1f2937;
+  margin: 0;  /* Elimina el margen por defecto del navegador */
+  font-family: Arial, sans-serif; /* Define la fuente principal */
+  color: #1f2937; /* Color del texto */
 }
-
+/* Contenedor principal */
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra horizontalmente el contenedor */
+  padding: 1rem; /* Espaciado interno alrededor del contenido */
 }
-
+/* Barra de navegación */
 .navbar {
-    background: #ffffff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    background: #ffffff; /* Fondo blanco */
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
   }
-  
+ /* Contenedor interno de la barra de navegación */ 
   .nav-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex; /* Usa modelo de caja flexible */
+    justify-content: space-between;  /* Espacio entre los elementos (izquierda y derecha) */
+    align-items: center; /* Centra verticalmente los elementos */
   }
-   /* es el contenedor*/
+/* Logo de la página */
   .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.5rem; /* Tamaño del texto del logo */
+    font-weight: bold;  /* Texto en negrita */
   
   }
-   /* se acomoda la imagen del logo*/
+/* Estilo para la imagen del logo */
   .logo img {
-    height: 60px;
-    width: auto;
-    display: block;
+    height: 60px; /* Altura de la imagen */
+    width: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacios no deseados debajo de la imagen */
   }
-  
+/* Lista de enlaces de navegación */  
   .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 1rem;
+    list-style: none;  /* Elimina los puntos de lista */
+    display: flex; /* Usa modelo flexbox para los enlaces */
+    gap: 1rem;  /* Espacio entre cada enlace */
   }
-  
+/* Enlaces de navegación */  
   .nav-links a {
-    text-decoration: none;
-    color: #374151;
+    text-decoration: none;  /* Quita el subrayado */
+    color: #374151; /* Color del texto */
   }
-  
+/* Efecto hover sobre enlaces */  
   .nav-links a:hover {
-    color: #ec4899;
+    color: #ec4899; /* Cambia de color al pasar el mouse */
   }
-  
+/* Sección del banner */  
  .banner {
-  position: relative;
-  width: 100%;
-  height: 300px;
+  position: relative; /* Permite posicionamiento absoluto dentro */
+  width: 100%;  /* Ocupa todo el ancho disponible */
+  height: 300px; /* Altura fija del banner */
 }
-
+/* Imagen del banner */
 .banner img {
-  position: absolute;
+  position: absolute;  /* Posiciona la imagen encima del contenedor */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; /* Imagen ocupa todo el ancho */
+  height: 100%; /* Imagen ocupa toda la altura */
   object-fit: cover; /* Asegura que la imagen cubra completamente el div */
   z-index: -1; /* Coloca la imagen por debajo del contenido */
-  background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* aplicará el degradado debajo de la imagen */
 
 }
-
-  
+/* Superposición encima del banner */
   .banner-overlay {
-    background-color: #ec4899;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #000000ad;
-     /* Ruta de la imagen */
-    color:#ffffff;
+    background-color: #ec4899; /* Color de fondo de la superposición */
+    height: 100%;  /* Ocupa toda la altura del contenedor */
+    display: flex;  /* Flexbox para centrar contenido */
+    flex-direction: column; /* Dirección vertical */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    background-color: #000000ad; /* Color semitransparente de fondo */
+    color:#ffffff;  /* Texto en blanco */
 
   }
-  
+/* Título principal en el banner */  
   .banner-overlay h1 {
-    font-size: 5rem;
-    margin: 0;
+    font-size: 5rem; /* Tamaño grande para el título */
+    margin: 0; /* Sin margen */
   }
-  
+/* Subtítulo en el banner */  
   .banner-overlay p {
-    font-size: 2rem;
-    margin-top: 1rem;
+    font-size: 2rem; /* Tamaño de fuente grande para el subtítulo */
+    margin-top: 1rem; /* Espacio arriba del párrafo */
   }
-
+/* Estilo personalizado para el título del banner */
   .titulo-banner {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-size: 96px;
-  font-weight: 700;
-  line-height: 100px;
+  font-family: "Dancing Script", cursive; /* Fuente decorativa */
+  font-optical-sizing: auto; /* Ajuste óptico automático */
+  font-style: normal; /* Estilo normal (no cursiva) */
+  font-size: 96px; /* Tamaño grande */
+  font-weight: 700; /* Negrita */
+  line-height: 100px; /* Espaciado entre líneas */
 }
-
+/* Segundo estilo de título del banner */
 .titulo-banner-2 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 48px;
-    font-weight: 700;
+    font-family: "Dancing Script", cursive; /* Misma fuente decorativa */
+    font-optical-sizing: auto; 
+    font-style: normal; 
+    font-size: 48px; /* Tamaño más pequeño que el anterior */
+    font-weight: 700; /* Negrita */
   }

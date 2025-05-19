@@ -1,20 +1,6 @@
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    
-}
- .logo {
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: bold;
-  
-  }
-   /* se acomoda la imagen del logo*/
-  .logo img {
-    display: flex;
-    height: 60px;
-    width: auto;  
-}
+
+ /* banner */
+
   .banner {
     background-image: url('https://www.sublimesonhos.com.br/wp-content/uploads/2021/11/PAINEL-REDONDO-MEUS-15-ANOS-LILAS.jpg');
     background-size: cover;
@@ -22,23 +8,8 @@ body{
     height: 500px;
     position: relative;
   }
-  
-  .banner-overlay {
-    display: flex;
-    background-color: #ec4899;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-    
- .nav-links {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-  }
-  
+ 
+ /* Formulario */
 
 .formulario {
     display: flex;
@@ -62,8 +33,19 @@ body{
     font-weight: bold;
   }
 
+ /* Consulta */
+
+  .consulta {
+    background-color: #ec4899;
+    color: white;
+    border-radius: 3px;
+  }
+
+ /* boton */
+
 .button-1 {
     display: inline-block;
+    border: none;
     margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     background-color: #ec4899;
@@ -73,68 +55,14 @@ body{
     width: 150px;
 }
 
-/*CSS menu*/
-.flex.space-x-4.text-sm.font-medium{
-    gap: 20px;
-    font-size: 20px ;
-}
 
 
-/*CSS color fondo banner*/
-.bg-pink-200 {
-    --tw-bg-opacity: 1;
-    background-color: pink;
-}
 
 
-.titulo-banner-2 {
-    font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 50px;
-  }
 
 
-/*CSS Botones*/
-
-.bg-pink-500 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
-}
 
 
-/*cuando pasa el mouse*/
-.hover\:bg-pink-600:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(219 39 119 / var(--tw-bg-opacity, 1));
-}
 
 
-  /* QUIENES SOMOS ESTILOS*/
-  
-  .content-box {
-    display: flex;
-    text-align: center;
-    max-width: 1200px;
-    background-color: white;
-  }
-  
-  .image img {
-    width: 90%;
-    height: auto;
-  }
-  
-  .text {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-  }
 
-  .footer {
-    background: #ec4899;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-  }

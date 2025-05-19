@@ -7,53 +7,54 @@
   background-position: center; /* Centra la imagen dentro del div */
 }
 
-
+/* Sección principal de temas: centrado del texto y espacio interno */
 .themes-section {
-  text-align: center;
-  
-  padding: 4rem 1rem;
+  text-align: center;  /* Centra el texto horizontalmente */
+  padding: 4rem 1rem; /* Espaciado interno: 4rem arriba/abajo y 1rem izquierda/derecha */
 }
-
+/* Título principal de la sección */
 .themes-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;  /* Tamaño de fuente grande para el título */
+  margin-bottom: 2rem; /* Espacio inferior debajo del título */
 }
 
+/* Contenedor en forma de cuadrícula para los elementos (tarjetas) */
 .themes-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  display: grid; /* Usa sistema de cuadrícula (grid layout) */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Crea columnas responsivas con un mínimo de 250px y máximo 1fr */
+  gap: 1.5rem; /* Espacio entre las columnas y filas */
 }
-
+/* Estilos generales de cada tarjeta */
 .card {
-  background: white;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  background: white; /* Fondo blanco */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  overflow: hidden; /* Oculta el contenido que se desborde */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  text-align: center;  /* Centra el contenido dentro de la tarjeta */
 }
 
+/* Imagen dentro de cada tarjeta */
 .card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+  height: 200px; /* Altura fija */
+  object-fit: cover; /* Recorta la imagen para que se ajuste sin deformarse */
 }
-
+/* Título dentro de cada tarjeta */
 .card h3 {
-  margin: 1rem 0;
-  font-size: 1.125rem;
+  margin: 1rem 0; /* Margen arriba y abajo */
+  font-size: 1.125rem; /* Tamaño de fuente ligeramente grande */
 }
-
+/* Botón dentro de la tarjeta */
 .btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #ec4899;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.375rem;
+  display: inline-block; /* Permite aplicar padding y margen */
+  margin-bottom: 1rem; /* Margen inferior */
+  padding: 0.5rem 1rem; /* Espaciado interno (arriba/abajo 0.5rem, lados 1rem) */
+  background-color: #ec4899; /* Color de fondo rosado */
+  color: white; /* Texto blanco */
+  text-decoration: none; /* Elimina subrayado de enlaces */
+  border-radius: 0.375rem; /* Bordes redondeados suaves */
 }
-
+/* Efecto al pasar el mouse por encima del botón */
 .btn:hover {
-  background-color: #db2777;
+  background-color: #db2777;  /* Cambia a un tono más oscuro al pasar el mouse */
 }
