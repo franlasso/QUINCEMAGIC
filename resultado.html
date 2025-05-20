@@ -4,33 +4,33 @@
   <link rel="icon" type="image/png" href="./img/logoinicio.jpeg">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/css/inicio.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/resultado.css">
+  <link href="./css/inicio.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/nav-bar.css">
-  <link rel="stylesheet" href="/css/footer.css">
-  <link rel="stylesheet" href="/css/resultado.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 <body>
-
-   <!-- Menú principal -->
+<!-- Menú principal -->
   <nav class="navbar">
     <div class="container nav-container">
       <div class="logo">
-        <img src="/img/logoinicio.jpeg" alt="Clásica">
+        <img src="./img/logoinicio.jpeg" alt="Clásica">
       </div>
       <ul class="nav-links">
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/quienes-somos.html">Quiénes somos</a></li>
-        <li><a href="/contacto.html">Contacto</a></li>
-        <li><a href="/acceso.html">Acceder</a></li>
-        <li><a href="/acceso.html">Registrarse</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes-somos.html">Quiénes somos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="acceso.html">Acceder</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- Banner principal -->
   <div class="banner">
+      <img src="./img/bg-banner.jpeg" alt="Imagen de fondo">
     <div class="banner-overlay">
-      <h1>Bienvenidos a QuinceMagic</h1>
-      <p>Haz realidad la fiesta de tus sueños</p>
+    <h1 class="titulo-banner">Bienvenidos a QuinceMagic</h1>
+    <p class="titulo-banner-2">Haz realidad la fiesta de tus sueños</p>
     </div>
   </div>
 
@@ -39,30 +39,36 @@
     <div class="card">
         <img src="/img/menu-sugerido.png" alt="Servicio 1">
         <h3> MENÚ SUGERIDO</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam, ab consectetur animi ipsam explicabo perspiciatis dolorem modi at omnis quidem eligendi ad aut facere laudantium ea laboriosam repudiandae. Voluptatem!</p>
-        <H4>SUBTOTAL MENU</H4>
+        <p id="menu-sugerido"> Entrada: Mini brochetas de mozzarella y tomate cherry con pesto. Plato Principal: Medallones de lomo en salsa de vino tinto, acompañados de papas gratinadas y vegetales al vapor. Bebida: Cóctel sin alcohol de frutos rojos con menta.</p>
+        <H4 id="menu-precio">VALOR MENU: $1.500.000</H4>
     </div>
 <div class="card">
-        <img src="/img/decoracion-sugerido.jpg" alt="Servicio 1">
-        <h3>DECORACION</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam, ab consectetur animi ipsam explicabo perspiciatis dolorem modi at omnis quidem eligendi ad aut facere laudantium ea laboriosam repudiandae. Voluptatem!</p>
-        <H4>SUBTOTAL DECORACION</H4>
+        <img src="/img/holliwood.jpeg" alt="Servicio 1">
+        <h3>DECORACION: HOLLYWOOD</h3>
+        <p id="decoracion-sugerido"> "Alfombra roja en la entrada y estrellas con nombres de los invitados. Globos metalizados en dorado y negro. Centros de mesa con mini estatuillas tipo Oscar. Photocall con fondo de paparazzi.​"</p>
+        <H4 id="decoracion-precio">VALOR DECORACION: $1.200.000</H4>
 </div>
 <div class="card">
-    <img src="/img/salon.jpg" alt="Servicio 1">
-    <h3> SALON SUGERIDO</h3>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam, ab consectetur animi ipsam explicabo perspiciatis dolorem modi at omnis quidem eligendi ad aut facere laudantium ea laboriosam repudiandae. Voluptatem!</p>
-        <H4>SUBTOTAL SALON</H4>
+    <img id="salon-foto" src="./img/gualanday.webp" alt="Servicio 1">
+    <h3 id="salon-nombre">Hotel Casa Santa Mónica - Salón Gualanday</h3>
+    <p id="salon-descripcion">Cuenta con luz natural, mobiliario moderno, tecnología versátil y todos los servicios necesarios para eventos íntimos, académicos o empresariales en un entorno campestre.</p>
+        <H4 id="salon-precio">VALOR SALÓN: $1.050.000</H4>
 </div>
-     </section>
-  <div class="resultado">
-      <H4>SUBTOTAL DECORACION</H4>
-      <img src="/img/iconopdf.jpg" href=".../presupuesto.pdf">
-  </div>
+<br>
+</section>
+<div class="pdf-download">
+  <h3> VALOR TOTAL FIESTA $3.7500.000</h3>
+  <h4>Propuesta de Servicio</h4>
+  <a href="propuesta-servicio.pdf" download>
+    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="Ícono PDF" width="24" height="24" style="vertical-align: middle; margin-right: 8px;">
+    Descargar propuesta (PDF)
+  </a>
+</div>
+<br>
   <!-- Footer -->
   <footer class="footer">
     © 2025 QuinceMagic. Todos los derechos reservados.
   </footer>
-
 </body>
+<script src="/resultado.js"> </script>
 </html>
